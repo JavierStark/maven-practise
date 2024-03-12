@@ -21,6 +21,9 @@ import java.text.SimpleDateFormat;
  * month, and year values cannot be changed.
  */
 public class Date {
+
+  private int addedByCollaborator;
+
   private final int day;
   private final int month;
   private final int year;
